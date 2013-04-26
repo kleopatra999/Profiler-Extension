@@ -1,4 +1,5 @@
-/*.jar
-/*.jar.pack.gz
+/NetLogoHeadless.jar
+/scala-library-*.jar
 /classes
+/profiler.jar
 /profiler.zip
