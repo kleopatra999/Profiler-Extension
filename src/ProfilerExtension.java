@@ -1,6 +1,6 @@
 package org.nlogo.extensions.profiler;
 
-import org.nlogo.api.Syntax;
+import org.nlogo.core.Syntax;
 import org.nlogo.api.Context;
 import org.nlogo.api.DefaultCommand;
 import org.nlogo.api.DefaultReporter;
