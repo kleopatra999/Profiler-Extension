@@ -8,7 +8,7 @@ import java.util.Arrays;
 import org.nlogo.nvm.Activation;
 import org.nlogo.nvm.Context;
 import org.nlogo.nvm.Procedure;
-import org.nlogo.api.LogoList;
+import org.nlogo.core.LogoList;
 
 public class QuickTracer extends org.nlogo.nvm.Tracer {
   private static class Record {
