@@ -25,7 +25,7 @@ profiler.jar: $(SRCS) manifest.txt NetLogoHeadless.jar
 	jar cmf manifest.txt profiler.jar -C classes .
 
 NetLogoHeadless.jar:
-	curl -f -s -S -L 'http://dl.bintray.com/netlogo/NetLogoHeadlessMaven/org/nlogo/netlogoheadless/5.2.0-841c76b/netlogoheadless-5.2.0-841c76b.jar' -o NetLogoHeadless.jar
+	curl -f -s -S -L 'http://dl.bintray.com/netlogo/NetLogoHeadless/org/nlogo/netlogoheadless/5.2.0-6f86ac6/netlogoheadless-5.2.0-6f86ac6.jar' -o NetLogoHeadless.jar
 
 profiler.zip: profiler.jar
 	rm -rf profiler
